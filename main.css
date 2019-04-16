@@ -1,9 +1,17 @@
 .titleBar{
-    background-color: dodgerblue;
+    background-image: url('./assets/images/banner.jpg');
     width:100vw;
+    height:15vh;
 }
 
+#title{
+    color: white;
+    align-self:center;
+}
 .headerBar{
     background-color: darkslategray;
     width:100vw;
 }
+
+/* ====================== */
+/* === Content area === */
