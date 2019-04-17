@@ -14,14 +14,18 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
 </head>
 <body>
-    <!-- Main parent bootstrap container for the page. -->
+    <!-- ===================================================== -->
+    <!-- === Main parent bootstrap container for the page. === -->
+    <!-- ===================================================== -->
     <div class="container-fluid" id="app">
-        <!-- header area -->
+        <!-- =================== -->
+        <!-- === header area === -->
+        <!-- =================== -->
         <div class="row justify-content-center">
             <div class="row justify-content-center titleBar">
                 <h1 id="title">Alotl Axolotls!</h1>
             </div>
-            <div class="row justify-content-center headerBar">
+            <div class="row justify-content-center headerBar-light">
                 <div id="header">
                     <button id="home"><span class="header-text">Home</span></button>
                     <button id="care">Care</button>
@@ -32,33 +36,132 @@
             </div>
         </div>
 
-        <!-- main content area -->
+        <!-- ========================= -->
+        <!-- === main content area === -->
+        <!-- ========================= -->
         <div class="row">
-            <!-- Homepage container -->
+
+            <!-- ========================== -->
+            <!-- === Homepage container === -->
+            <!-- ========================== -->
             <div class="container-fluid" id="homePage">
-                <div class="row justify-content-center">
-                    <div class="col-sm-4" id="sidebar">
+                <div class="row overflow-auto" id="home-row">
+                    <!-- Sidebar menu -->
+                    <nav class="col-sm-3 sidebar-light" id="sidebar-home">
+                        <ul class="nav nav-pills flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#section1">Section 1</a>
+                            </li>
 
-                    </div>
+                            <li class="nav-item">
+                                    <a class="nav-link active" href="#section2">Section 2</a>
+                            </li>
 
-                    <div class="col-sm-8">
-                        
+                            <li class="nav-item">
+                                    <a class="nav-link active" href="#section3">Section 3</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                    <!-- Page content -->
+                    <div class="container-fluid col overflow-auto content-light" id="home-content" data-spy="scroll" data-target="#sidebar-home" data-offset="1">
+                        <div id="section1">
+                            <h3>Test Section 1</h3>
+                            <p>The axolotl (/ˈæksəlɒtəl/, from Classical Nahuatl: āxōlōtl [aːˈʃoːloːtɬ] (About this soundlisten); plural axolotls or rarely axolomeh[3]), Ambystoma mexicanum,[2] also known as the Mexican walking fish, is a neotenic salamander related to the tiger salamander.[2][4][5] Although the axolotl is colloquially known as a "walking fish",[4][5] it is not a fish, but an amphibian.[2] The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City.[1] Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.</p>
+                            <p>Axolotls should not be confused with waterdogs, the larval stage of the closely related tiger salamanders (A. tigrinum and A. mavortium), which are widespread in much of North America and occasionally become neotenic. Neither should they be confused with mudpuppies (Necturus spp.), fully aquatic salamanders that are not closely related to the axolotl but bear a superficial resemblance.[6]</p>
+                            <p>As of 2010, wild axolotls were near extinction[7] due to urbanization in Mexico City and consequent water pollution, as well as the introduction of invasive species such as tilapia and perch. They are currently listed by CITES as an endangered species and by IUCN as critically endangered in the wild, with a decreasing population. Axolotls are used extensively in scientific research due to their ability to regenerate limbs.[8] Axolotls were also sold as food in Mexican markets and were a staple in the Aztec diet.</p>
+                            <p>Surveys in 1998, 2003, and 2008 found 6,000, 1,000, and 100 axolotls per square kilometer in its Lake Xochimilco habitat, respectively.[10] A four-month-long search in 2013, however, turned up no surviving individuals in the wild. Just a month later, two wild ones were spotted in a network of canals leading from Xochimilco.[11] The city is currently working on conserving axolotls by building "axolotl shelters" and conserving remaining and potential habitats for the salamanders.</p>
+                        </div>
+
+                        <div id="section2">
+                            <h3>Test Section 2</h3>
+                            <p>A sexually mature adult axolotl, at age 18–24 months, ranges in length from 15 to 45 cm (6 to 18 in), although a size close to 23 cm (9 in) is most common and greater than 30 cm (12 in) is rare. Axolotls possess features typical of salamander larvae, including external gills and a caudal fin extending from behind the head to the vent.</p>
+                            <p>heir heads are wide, and their eyes are lidless. Their limbs are underdeveloped and possess long, thin digits. Males are identified by their swollen cloacae lined with papillae, while females are noticeable for their wider bodies full of eggs. Three pairs of external gill stalks (rami) originate behind their heads and are used to move oxygenated water. The external gill rami are lined with filaments (fimbriae) to increase surface area for gas exchange.[citation needed] Four gill slits lined with gill rakers are hidden underneath the external gills.</p>
+                            <p>Axolotls have barely visible vestigial teeth, which would have developed during metamorphosis. The primary method of feeding is by suction, during which their rakers interlock to close the gill slits. External gills are used for respiration, although buccal pumping (gulping air from the surface) may also be used to provide oxygen to their lungs.</p>
+                            <p>Axolotls have four pigmentation genes; when mutated they create different color variants. The normal wild type animal is brown/tan with gold speckles and an olive undertone. The four mutant colors are leucistic (pale pink with black eyes), albino (golden with gold eyes), axanthic (grey with black eyes) and melanoid (all black with no gold speckling or olive tone). In addition, there is wide individual variability in the size, frequency, and intensity of the gold speckling and at least one variant that develops a black and white piebald appearance on reaching maturity. Because pet breeders frequently cross the variant colors, animals that are double recessive mutants are common in the pet trade, especially white/pink animals with pink eyes that are double homozygous mutants for both the albino and leucistic trait.[12] Axolotls also have some limited ability to alter their color to provide better camouflage by changing the relative size and thickness of their melanophores.</p>
+                        </div>
+
+                        <div id="section3">
+                            <h3>Test Section 3</h3>
+                            <p>The axolotl is only native to Lake Xochimilco and Lake Chalco in the Valley of Mexico. Lake Chalco no longer exists, having been drained as a flood control measure, and Lake Xochimilco remains a remnant of its former self, existing mainly as canals. The water temperature in Xochimilco rarely rises above 20 °C (68 °F), though it may fall to 6 to 7 °C in the winter, and perhaps lower.</p>
+                            <p>The wild population has been put under heavy pressure by the growth of Mexico City. The axolotl is currently on the International Union for Conservation of Nature's annual Red List of threatened species. Non-native fish, such as African tilapia and Asian carp, have also recently been introduced to the waters. These new fish have been eating the axolotls' young, as well as its primary source of food.</p>
+                            <p>Axolotls are members of the tiger salamander, or Ambystoma tigrinum, species complex, along with all other Mexican species of Ambystoma. Their habitat is like that of most neotenic species—a high altitude body of water surrounded by a risky terrestrial environment. These conditions are thought to favor neoteny. However, a terrestrial population of Mexican tiger salamanders occupies and breeds in the axolotl's habitat.</p>
+                            <p>The axolotl is carnivorous, consuming small prey such as worms, insects, and small fish in the wild. Axolotls locate food by smell, and will "snap" at any potential meal, sucking the food into their stomachs with vacuum force.</p>
+                        </div>
                     </div>
 
                 </div>
 
+            <!-- Home page closer -->
             </div>
 
-            <!-- Carepage container -->
-            <div class="container-fluid">
+            <!-- ========================== -->
+            <!-- === Carepage container === -->
+            <!-- ========================== -->
+            <div class="container-fluid d-none" id="carePage">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4" id="sidebar-care">
+                        <ul class="nav nav-pills flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="section1"></a>
+                            </li>
+                        </ul>
 
+                    </div>
+
+                    <div class="col-sm-8">
+
+                    </div>
+
+                </div>
+
+            <!-- Carepage closer -->
             </div>
 
-            <!-- About page container -->
-            <div>
+            <!-- ============================== -->
+            <!-- === Biology page container === -->
+            <!-- ============================== -->
+            <div class="container-fluid d-none" id="bioPage">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4" id="sidebar-bio">
+                        <ul class="nav nav-pills flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="section1">Section 1</a>
+                            </li>
+                        </ul>
 
+                    </div>
+
+                    <div class="col-sm-8">
+
+                    </div>
+
+                </div>
+
+            <!-- Biology page closer -->
+            </div>
+
+        <!-- Content area closer -->
+        </div>
+
+        <!-- =================== -->
+        <!-- === Footer area === -->
+        <!-- =================== -->
+        <div class="row footer-light">
+            <span class="col text-center">Alex Collazo 2019</span>
+            <div class="col">
+                <!-- Theme selector -->
+                <form id="theme-select">
+                        <select name="themes" class="custom-select">
+                          <option selected value="light">Light Theme</option>
+                          <option value="dark">Dark Theme</option>
+                          <option value="lake">Lake Theme</option>
+                        </select>
+                </form>
             </div>
         </div>
+
+    <!-- main container closer -->
     </div>
 
     <script src="main.js"></script>

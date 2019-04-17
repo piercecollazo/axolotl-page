@@ -1,3 +1,7 @@
+
+/* =================== */
+/* === Header area === */
+/* =================== */
 .titleBar{
     background-image: url('./assets/images/banner.jpg');
     width:100vw;
@@ -8,10 +12,88 @@
     color: white;
     align-self:center;
 }
-.headerBar{
+/* === light theme === */
+.headerBar-light{
+    background-color: rgb(43, 103, 148);
+    width:100vw;
+}
+
+/* === dark theme === */
+.headerBar-dark{
     background-color: darkslategray;
     width:100vw;
 }
 
-/* ====================== */
+/* === lake theme === */
+.headerBar-lake{
+    background-color: rgb(120, 215, 120);
+    width:100vw;
+}
+/* ==================== */
 /* === Content area === */
+/* ==================== */
+
+/* === light theme === */
+.sidebar-light{
+    background-color: darksalmon;
+    height:100vh;
+    width:20vw;
+}
+
+.content-light{
+    background-color: white;
+}
+
+/* === dark theme === */
+.sidebar-dark{
+    background-color: darkslateblue;
+    height:100vh;
+    width:20vw;
+}
+
+.content-dark{
+    background-color: rgb(55, 55, 55);
+    color: white;
+}
+
+/* === lake theme === */
+.sidebar-lake{
+    background-color: lightskyblue;
+    height:100vh;
+    width:20vw;
+}
+
+.content-lake{
+    background-color: rgb(132, 160, 132);
+}
+
+.nav{
+    width:20vw;
+}
+
+#home-row{
+    position: relative;
+}
+
+#home-content{
+    height:100vh;
+}
+
+.nav{
+    justify-content: center;
+}
+/* =================== */
+/* === Footer area === */
+/* =================== */
+
+.footer-light{
+    background-color:   rgb(43, 103, 148);
+    font-size: 1em;
+    width: 100vw;
+    /* height:10vh; */
+    position: relative;
+}
+
+#theme-select{
+    width:15vw;
+}
