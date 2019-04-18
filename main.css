@@ -75,7 +75,7 @@
     position: relative;
 }
 
-#home-content{
+.content{
     height:100vh;
 }
 
@@ -90,7 +90,21 @@
     background-color:   rgb(43, 103, 148);
     font-size: 1em;
     width: 100vw;
-    /* height:10vh; */
+    position: relative;
+}
+
+.footer-dark{
+    background-color:   darkslategray;
+    color:white;
+    font-size: 1em;
+    width: 100vw;
+    position: relative;
+}
+
+.footer-lake{
+    background-color:   rgb(120, 215, 120);
+    font-size: 1em;
+    width: 100vw;
     position: relative;
 }
 

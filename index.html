@@ -25,7 +25,7 @@
             <div class="row justify-content-center titleBar">
                 <h1 id="title">Alotl Axolotls!</h1>
             </div>
-            <div class="row justify-content-center headerBar-light">
+            <div class="row justify-content-center head headerBar-light">
                 <div id="header">
                     <button id="home"><span class="header-text">Home</span></button>
                     <button id="care">Care</button>
@@ -47,7 +47,7 @@
             <div class="container-fluid" id="homePage">
                 <div class="row overflow-auto" id="home-row">
                     <!-- Sidebar menu -->
-                    <nav class="col-sm-3 sidebar-light" id="sidebar-home">
+                    <nav class="col-sm-3 sidebar-home sidebar-light">
                         <ul class="nav nav-pills flex-column">
                             <li class="nav-item">
                                 <a class="nav-link active" href="#section1">Section 1</a>
@@ -64,7 +64,7 @@
 
                     </nav>
                     <!-- Page content -->
-                    <div class="container-fluid col overflow-auto content-light" id="home-content" data-spy="scroll" data-target="#sidebar-home" data-offset="1">
+                    <div class="container-fluid content col overflow-auto content-light" data-spy="scroll" data-target=".sidebar-home" data-offset="1">
                         <div id="section1">
                             <h3>Test Section 1</h3>
                             <p>The axolotl (/ˈæksəlɒtəl/, from Classical Nahuatl: āxōlōtl [aːˈʃoːloːtɬ] (About this soundlisten); plural axolotls or rarely axolomeh[3]), Ambystoma mexicanum,[2] also known as the Mexican walking fish, is a neotenic salamander related to the tiger salamander.[2][4][5] Although the axolotl is colloquially known as a "walking fish",[4][5] it is not a fish, but an amphibian.[2] The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City.[1] Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.</p>
@@ -147,17 +147,22 @@
         <!-- =================== -->
         <!-- === Footer area === -->
         <!-- =================== -->
-        <div class="row footer-light">
+        <div class="row footer footer-light">
             <span class="col text-center">Alex Collazo 2019</span>
             <div class="col">
                 <!-- Theme selector -->
-                <form id="theme-select">
+                <button id="light-button">Light</button>
+                <button id="dark-button">Dark</button>
+                <button id="lake-button">Lake</button>
+
+                <!-- These were being finnicky so to save time I made buttons -->
+                <!-- <form id="theme-select">
                         <select name="themes" class="custom-select">
                           <option selected value="light">Light Theme</option>
                           <option value="dark">Dark Theme</option>
                           <option value="lake">Lake Theme</option>
                         </select>
-                </form>
+                </form> -->
             </div>
         </div>
 
